@@ -1,7 +1,12 @@
-Trabalho final do curso de Visualização de dados na Universidade Federal FLuminense
+# Visualização de Dados Judiciais
 
-Para excutar, redija a o seguinte comand
+Este projeto foi desenvolvido como trabalho final disciplina de Visualização de Dados do Insitituto de Computação da Universidade Federal Fluminense (UFF).
 
-```docker run -it --rm -p 5173:5173 -v $(pwd):/app -w /app node:20-alpine sh -c "npm install && npx vite --host"```
+## Tecnologias exigidas pelo trabalho
 
+- DuckDB
+- D3.js
 
+## Conjunto de dados escolhido
+
+Os dados utilizados foram obtidos através da API pública do DataJud
