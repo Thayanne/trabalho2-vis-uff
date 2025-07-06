@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dados Jurídicos</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <h1>Dados - Judiciário Brasileiro</h1>
+
+  <section>
+    <h2>Visualização da distribuição de assuntos</h2>
+    <div id="container-assuntos-1" class="flex-container">
+      <div id="grafico-mosaico-assuntos"></div>
+      <div id="grafico-pizza-assuntos"></div>
+    </div>
+    <div id="container-assuntos-2">
+      <div id="grafico-barras-assuntos"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Visualização da distribuição de classes processuais</h2>
+    <div id="linha-graficos-classe" class="flex-container">
+      <div id="grafico-rosquinha-classes"></div>
+      <div id="grafico-barras-horizontais-classes"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Visualização da distribuição entre os graus de jurisdição</h2>
+    <div id="grafico-grau" style="display: flex; justify-content: center;"></div>
+  </section>
+
+  <section>
+    <h2>Processos semelhantes (classe e assunto)</h2>
+    <div id="grafico-scatter-processos"></div>
+  </section>
+
+  <section>
+    <h2>Mapa de calor Classe x Assunto</h2>
+    <div id="grafico-heatmap" style="display: flex; justify-content: center;"></div>
+  </section>
+
+  <section>
+    <h2>Complexidade medida em quantidade de movimentos por assunto e classe</h2>
+    <div id="grafico-bolhas-top" style="display: flex; justify-content: center;"></div>
+  </section>
+
+  <section>
+    <h2>Quantidade de ajuizados por mês</h2>
+    <div id="grafico-linha-ajuizamento" style="display: flex; justify-content: center;"></div>
+  </section>
+
+  <!-- Modal de Mosaico -->
+  <div id="modal" class="modal">
+    <div id="modal-content">
+      <button id="btn-fechar">✕ Fechar</button>
+      <div id="grafico-mosaico-ampliado"></div>
+    </div>
+  </div>
+
+  <!-- Modal de Lista -->
+  <div id="modal2" class="modal" style="display: none;">
+    <div id="modal2-content">
+      <button id="btn-fechar2">Fechar</button>
+      <h3 id="modal2-titulo"></h3>
+      <ul id="modal2-lista"></ul>
+    </div>
+  </div>
+</body>
+</html>
