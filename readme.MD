@@ -9,4 +9,4 @@ Este projeto foi desenvolvido como trabalho final disciplina de Visualização d
 
 ## Conjunto de dados escolhido
 
-Os dados utilizados foram obtidos através da API pública do DataJud
+Os dados utilizados foram obtidos através da API pública do DataJud (https://datajud-wiki.cnj.jus.br/api-publica/endpoints)
